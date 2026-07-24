@@ -75,4 +75,4 @@ Incluye 15 figuras de evidencia, Tabla 3 (matriz CIS/NIST) y Tabla 4 (remediaci�
 - [13] M. Waseem, P. Liang, and M. Shahin, "A Systematic Mapping Study on Microservices Architecture in DevOps," Journal of Systems and Software, vol. 170, art. 110798, 2020. https://doi.org/10.1016/j.jss.2020.110798
 - [14] M. Bahtiar, T. Taryo, and F. Aziz, "Evaluasi Tingkat Keamanan Server Linux Ubuntu melalui Penerapan CIS Benchmarks, OpenVAS, dan Lynis sebagai Upaya Mitigasi Vektor Serangan," INTECOMS: Journal of Information Technology and Computer Science, vol. 9, no. 2, pp. 296-301, 2026. https://doi.org/10.31539/ht1ydz84
 
-> Versión portfolio: documento Word completo con figuras permanece en el repositorio privado del proyecto.
+> Versión portafolio: documento Word completo con figuras permanece en el repositorio privado del proyecto.
