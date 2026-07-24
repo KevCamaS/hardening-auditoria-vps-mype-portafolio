@@ -1,0 +1,170 @@
+/home/mype/dev/app-finanzas/docker-compose.yml
+/home/mype/dev/oishi-app-horarios/docker-compose.yml
+/home/mype/dev/chat-nube/docker-compose.yml
+/home/mype/dev/bot-whatsapp-mype/docker-compose.yml
+/home/mype/dev/project-cloud-service/docker-compose.yml
+/home/mype/dev/wallet-web/docker-compose.yml
+/home/mype/dev/app-flow/docker-compose.yml
+/home/mype/dev/new_page_mype/docker-compose.yml
+/home/mype/prod/SISTEMA-GCE-V2/docker-compose.yml
+/home/mype/prod/shopimax/api-shopimax/docker-compose.yml
+/var/www/blog-example.local/docker/docker-compose.yaml
+/var/www/app-example.local/docker/docker-compose.yml
+app-flow-frontend -> User: '<default/root>'
+app-flow-backend -> User: '<default/root>'
+chat-nube-frontend-1 -> User: '<default/root>'
+chat-nube-backend-1 -> User: '<default/root>'
+new_page_mype-web-1 -> User: '<default/root>'
+webhook-shopimax -> User: '<default/root>'
+api-shopimax -> User: '<default/root>'
+REPOSITORY                    TAG        SIZE
+chat-nube-frontend            latest     48.5MB
+chat-nube-backend             latest     136MB
+sistema-gce-v2_backend        latest     267MB
+oishi-app-horarios-frontend   latest     49.9MB
+oishi-app-horarios-backend    latest     153MB
+app-flow-frontend             latest     279MB
+app-flow-backend              latest     152MB
+new_page_mype-web             latest     145MB
+app-finanzas-frontend         latest     751MB
+app-finanzas-backend          latest     462MB
+mysql                         8.4        790MB
+webhook-shopimax              latest     233MB
+api-shopimax                  latest     1.56GB
+ghost                         5-alpine   572MB
+mysql                         8          777MB
+mysql                         8.0        772MB
+NETWORK ID     NAME                                DRIVER    SCOPE
+7325aad653da   api-shopimax_default                bridge    local
+5c074f793466   api-shopimax_net-shopimax           bridge    local
+896b118f323c   app-flow_app-flow                   bridge    local
+27902bfccd04   blogchinchademisamorescom_default   bridge    local
+eaf037a7a4cb   bot-whatsapp-mype_default           bridge    local
+e8398c562a42   bridge                              bridge    local
+504d799fb06e   chat-nube_default                   bridge    local
+3e20ce25ba30   chat-nube_habbo                     bridge    local
+ad43e1675176   host                                host      local
+92de5a44df8f   n8n_default                         bridge    local
+810980f92765   new_page_mype_default               bridge    local
+0f37f3a9f4d8   none                                null      local
+56063d60dec1   oishi_sistema_horarios_default      bridge    local
+6743eb04a446   prompt_blog_default                 bridge    local
+caffdff3f52a   wallet-web_default                  bridge    local
+NAMES                  IMAGE                           STATUS                     PORTS
+app-flow-frontend      app-flow-frontend               Up 4 days                  127.0.0.1:4687->4687/tcp
+app-flow-backend       app-flow-backend                Up 4 days                  127.0.0.1:4688->4688/tcp
+chat-nube-frontend-1   chat-nube-frontend              Up 2 weeks                 80/tcp, 0.0.0.0:3335->3335/tcp
+chat-nube-backend-1    chat-nube-backend               Up 2 weeks                 0.0.0.0:3334->3334/tcp
+sistema-gce-backend    sistema-gce-v2_backend:latest   Exited (255) 5 weeks ago   0.0.0.0:7001->7001/tcp
+new_page_mype-web-1    new_page_mype-web               Up 4 weeks                 0.0.0.0:1005->1005/tcp
+webhook-shopimax       webhook-shopimax:latest         Up 5 weeks                 0.0.0.0:3003->3003/tcp
+api-shopimax           api-shopimax:latest             Up 5 weeks                 0.0.0.0:4000->4000/tcp
+DRIVER    VOLUME NAME
+local     0a6dd5d956951f0602894b3b4676dbbb517e30ffd8d033debfd6315cb4dc23c4
+local     1a83cbef579016aec38220a8b6be9d0c25e97d197cdfb3f9c6edc30ae7b7218a
+local     3eb2460d6cc0cdc2e80af281dc9eadf26f9e285d2a845408e61076014fcbcd92
+local     4a1c0b7ec240741222dfabd04618c910faaa7b31b077ba7620f869f7c807ca1c
+local     5aee0a88ed6a9809b8731a47d1dc8f733214c2a5f5159590c62ec8fbb7b13081
+local     7b91d944939cf253b7061a45e9697f02b53b47df37d283d27d66dbfc37621be1
+local     8b56d472dbf12b9c73dc6e4f93edbb1a51e2da3825c8a0c609a24521aff5395c
+local     8c983b1e7e2106c55e1f7e3aba7d18e1a3e8b4a9ffdf88e85df33d2decada32a
+local     30e9d7c861360b8cc3e47893538f361559b1d2ab0c8f9309cded304ea69777b6
+local     75edfbe3212f63daf4de0da00b2b7f9375d59c3542bd8751146dc08abff0a926
+local     231b29638d61c8fa569f5b391fed3c4d812a0ba71f7396e63210b2913c6d9d66
+local     827d6810da21feb36b498208fc9825d1e18e7ba3a9e0963fab7b9a233ea5f1c7
+local     765138bfb3dd41f9aa40b434bcbff417c8f2de24bc29ad1dd38cff4b9dd4131d
+local     a054f752258f329bf8012be9bd314fe220906fefdf2a88cdfeb058f4f6c926b3
+local     aae2288cf2af70094fbac5a8e376a310cbff14a9d168b15b6c2402b12f61af49
+local     api-shopimax_shopimax-db-mysql-vol
+local     app-finanzas_mysql_data
+local     b34917422a9a60238bb777a4ac65971ff53e38f41ba97445797abc144b61334c
+local     c964c8a079d5b54977a22826e232d2e36fe4efb9e9ac5ac7854c9e7bc9f1107a
+local     cac7e8447aab2ca80b2a4a1ea2bec342c4b7687cc7df6977d019d3e43071bce4
+local     cc4fcb0b297b788fd54b9c43caa12a88c436a01bedd54cf9a04360ab9623bcbf
+local     cc0395d83b23c4946f3a5736000b18cd1ceaa3ab760c6e648f3b72cb0874f09c
+local     ebc7f0e927dd3e1faac8816a69e00d7175c52b8b7bcc94de53a05ca67c1a9316
+local     ef88d05da8c38187a9517b1dbf54125a9ad3f537b13ece7a9529a0c18c226400
+-rw-rw-r-- 1 mype mype 443 Apr  3 21:34 /home/mype/dev/app-finanzas/.env
+-rw-rw-r-- 1 mype mype 49 Mar 30 23:51 /home/mype/dev/app-finanzas/frontend/.env
+-rw-rw-r-- 1 mype mype 286 Apr  3 21:34 /home/mype/dev/app-finanzas/backend/.env
+-rw-rw-r-- 1 mype mype 2781 Mar 27 20:55 /home/mype/dev/oishi-app-horarios/.env
+-rw-rw-r-- 1 mype mype 94 Apr  7 04:11 /home/mype/dev/oishi-app-horarios/frontend/.env.example
+-rw-rw-r-- 1 mype mype 60 Feb 14 04:07 /home/mype/dev/oishi-app-horarios/frontend/.env
+-rw-rw-r-- 1 mype mype 1443 May 30 19:26 /home/mype/dev/oishi-app-horarios/backend/.env.example
+-rw-rw-r-- 1 mype mype 2902 May 18 06:07 /home/mype/dev/oishi-app-horarios/backend/.env
+-rw-rw-r-- 1 mype mype 135 Mar  1 08:12 /home/mype/dev/bot-whatsapp-mype/.env.example
+-rw-rw-r-- 1 mype mype 377 Mar  1 09:01 /home/mype/dev/bot-whatsapp-mype/.env
+-rw-rw-r-- 1 mype mype 97 Jun 30  2025 /home/mype/dev/project-cloud-service/.env.example
+-rw-rw-r-- 1 mype mype 150 Jul  1  2025 /home/mype/dev/project-cloud-service/.env
+-rw-rw-r-- 1 mype mype 135 Mar 14 23:07 /home/mype/dev/wallet-web/.env
+-rw-rw-r-- 1 mype mype 78 Mar 14 23:31 /home/mype/dev/wallet-web/backend/.env.example
+-rw-rw-r-- 1 mype mype 145 Mar 14 23:33 /home/mype/dev/wallet-web/backend/.env
+-rw-rw-r-- 1 mype mype 39 Apr  1 09:13 /home/mype/dev/app-flow/.env
+-rw-rw-r-- 1 mype mype 58 Apr  1 15:26 /home/mype/dev/app-flow/frontend/.env.example
+-rw-rw-r-- 1 mype mype 18 Apr  1 09:15 /home/mype/dev/app-flow/frontend/.env
+-rw-rw-r-- 1 mype mype 464 Apr  1 15:57 /home/mype/dev/app-flow/backend/.env.example
+-rw-rw-r-- 1 mype mype 835 May 12 13:52 /home/mype/dev/app-flow/backend/.env
+-rw-rw-r-- 1 mype mype 60 Jun 29  2025 /home/mype/dev/merch-service/.env.example
+-rw-rw-r-- 1 mype mype 153 Jun 29  2025 /home/mype/dev/merch-service/.env
+-rw-rw-r-- 1 mype mype 701 Dec 27  2025 /home/mype/prod/SISTEMA-GCE-V2/backend/.env
+-rw-rw-r-- 1 mype mype 1696 Jun 30  2025 /home/mype/prod/shopimax/api-shopimax/.env.production
+-rw-rw-r-- 1 mype mype 1844 Jun 23  2025 /home/mype/prod/shopimax/api-shopimax/.env.development
+-rw-rw-r-- 1 mype mype 13 Jun 22  2025 /home/mype/prod/shopimax/webhook-shopimax/.env.example
+-rw-r--r-- 1 mype mype 452 Jul 11  2025 /var/www/what2bot/.env
+-rw-r--r-- 1 mype mype 0 Apr 24  2025 /var/www/blog-example.local/versions/5.119.2/node_modules/psl/.env
+-rw-r--r-- 1 mype mype 474 Jun 29  2025 /var/www/oldbot/.env
+-rw-r--r-- 1 mype mype 0 Apr 24  2025 /var/www/app-example.local/versions/5.118.0/node_modules/psl/.env
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                                                                                                                    
+udp   UNCONN 0      0            0.0.0.0:41641      0.0.0.0:*    users:(("tailscaled",pid=2921421,fd=20))                                                                                                  
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=2931281,fd=13))                                                                                             
+udp   UNCONN 0      0               [::]:41641         [::]:*    users:(("tailscaled",pid=2921421,fd=21))                                                                                                  
+tcp   LISTEN 0      4096         0.0.0.0:1005       0.0.0.0:*    users:(("docker-proxy",pid=302174,fd=8))                                                                                                  
+tcp   LISTEN 0      4096         0.0.0.0:3003       0.0.0.0:*    users:(("docker-proxy",pid=2457,fd=8))                                                                                                    
+tcp   LISTEN 0      70         127.0.0.1:33060      0.0.0.0:*    users:(("mysqld",pid=649,fd=21))                                                                                                          
+tcp   LISTEN 0      511        127.0.0.1:2368       0.0.0.0:*    users:(("node",pid=745,fd=21))                                                                                                            
+tcp   LISTEN 0      4096       127.0.0.1:4688       0.0.0.0:*    users:(("docker-proxy",pid=2931264,fd=8))                                                                                                 
+tcp   LISTEN 0      4096       127.0.0.1:4687       0.0.0.0:*    users:(("docker-proxy",pid=2931356,fd=8))                                                                                                 
+tcp   LISTEN 0      511          0.0.0.0:443        0.0.0.0:*    users:(("nginx",pid=2926225,fd=6),("nginx",pid=2926224,fd=6),("nginx",pid=2926223,fd=6),("nginx",pid=2926222,fd=6),("nginx",pid=663,fd=6))
+tcp   LISTEN 0      511          0.0.0.0:80         0.0.0.0:*    users:(("nginx",pid=2926225,fd=7),("nginx",pid=2926224,fd=7),("nginx",pid=2926223,fd=7),("nginx",pid=2926222,fd=7),("nginx",pid=663,fd=7))
+tcp   LISTEN 0      128          0.0.0.0:22         0.0.0.0:*    users:(("sshd",pid=639,fd=3))                                                                                                             
+tcp   LISTEN 0      151        127.0.0.1:3306       0.0.0.0:*    users:(("mysqld",pid=649,fd=23))                                                                                                          
+tcp   LISTEN 0      4096         0.0.0.0:4000       0.0.0.0:*    users:(("docker-proxy",pid=2645,fd=8))                                                                                                    
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=2931281,fd=14))                                                                                             
+tcp   LISTEN 0      4096         0.0.0.0:3334       0.0.0.0:*    users:(("docker-proxy",pid=2918928,fd=8))                                                                                                 
+tcp   LISTEN 0      4096         0.0.0.0:3335       0.0.0.0:*    users:(("docker-proxy",pid=2919013,fd=8))                                                                                                 
+tcp   LISTEN 0      4096   100.81.135.39:42610      0.0.0.0:*    users:(("tailscaled",pid=2921421,fd=25))                                                                                                  
+tcp   LISTEN 0      128             [::]:22            [::]:*    users:(("sshd",pid=639,fd=4))                                                                                                             
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0            0.0.0.0:41641      0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0               [::]:41641         [::]:*          
+tcp   LISTEN 0      4096         0.0.0.0:1005       0.0.0.0:*          
+tcp   LISTEN 0      4096         0.0.0.0:3003       0.0.0.0:*          
+tcp   LISTEN 0      70         127.0.0.1:33060      0.0.0.0:*          
+tcp   LISTEN 0      511        127.0.0.1:2368       0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:4688       0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:4687       0.0.0.0:*          
+tcp   LISTEN 0      511          0.0.0.0:443        0.0.0.0:*          
+tcp   LISTEN 0      511          0.0.0.0:80         0.0.0.0:*          
+tcp   LISTEN 0      128          0.0.0.0:22         0.0.0.0:*          
+tcp   LISTEN 0      151        127.0.0.1:3306       0.0.0.0:*          
+tcp   LISTEN 0      4096         0.0.0.0:4000       0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096         0.0.0.0:3334       0.0.0.0:*          
+tcp   LISTEN 0      4096         0.0.0.0:3335       0.0.0.0:*          
+tcp   LISTEN 0      4096   100.81.135.39:42610      0.0.0.0:*          
+tcp   LISTEN 0      128             [::]:22            [::]:*          
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp (OpenSSH)           ALLOW IN    Anywhere                  
+80,443/tcp (Nginx Full)    ALLOW IN    Anywhere                  
+5678                       ALLOW IN    Anywhere                  
+22/tcp (OpenSSH (v6))      ALLOW IN    Anywhere (v6)             
+80,443/tcp (Nginx Full (v6)) ALLOW IN    Anywhere (v6)             
+5678 (v6)                  ALLOW IN    Anywhere (v6)             
+

@@ -1,0 +1,23 @@
+# Nmap 7.80 scan initiated Mon Jul 13 03:30:29 2026 as: nmap -sT -p- -T4 -oN nmap_local_full_tcp.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00022s latency).
+Not shown: 65519 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+443/tcp   open  https
+1005/tcp  open  unknown
+2368/tcp  open  opentable
+3000/tcp  open  ppp
+3003/tcp  open  cgms
+3306/tcp  open  mysql
+3334/tcp  open  directv-web
+3335/tcp  open  directv-soft
+4000/tcp  open  remoteanything
+4687/tcp  open  nst
+4688/tcp  open  mobile-p2p
+9090/tcp  open  zeus-admin
+9100/tcp  open  jetdirect
+33060/tcp open  mysqlx
+
+# Nmap done at Mon Jul 13 03:30:33 2026 -- 1 IP address (1 host up) scanned in 3.75 seconds

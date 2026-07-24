@@ -1,0 +1,44 @@
+=== INCIDENTE DNS ACT9 ===
+Tue Jul 14 03:18:35 PM CEST 2026
+Causa: Tailscale MagicDNS (100.100.100.100) sobrescribia /etc/resolv.conf
+Sintoma: ESERVFAIL querySrv MongoDB Atlas → containers Restarting
+Fix: sudo tailscale set --accept-dns=false
+Validacion: dig SRV mongodb OK con DNS por defecto
+
+--- resolv.conf actual ---
+# This is /run/systemd/resolve/resolv.conf managed by man:systemd-resolved(8).
+# Do not edit.
+#
+# This file might be symlinked as /etc/resolv.conf. If you're looking at
+# /etc/resolv.conf and seeing this text, you have followed the symlink.
+#
+# This is a dynamic resolv.conf file for connecting local clients directly to
+# all known uplink DNS servers. This file lists all configured search domains.
+#
+# Third party programs should typically not access this file directly, but only
+# through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+# different way, replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 213.136.95.11
+nameserver 213.136.95.10
+search invalid
+
+--- dig default ---
+0 0 27017 cluster-shard-00-00.example.mongodb.net.
+0 0 27017 cluster-shard-00-02.example.mongodb.net.
+0 0 27017 cluster-shard-00-01.example.mongodb.net.
+
+--- contenedores ---
+NAMES                      STATUS
+monitoring_grafana         Up 23 hours
+monitoring_prometheus      Up 23 hours
+monitoring_node_exporter   Up 23 hours
+app-flow-frontend          Up 23 hours
+app-flow-backend           Up 15 hours
+chat-nube-frontend-1       Up 23 hours
+chat-nube-backend-1        Up 23 hours
+webhook-shopimax           Up 23 hours
+api-shopimax               Up 15 hours

@@ -1,0 +1,32 @@
+ -rw-rw-r-- 1 mype mype 443 Apr  3 21:34 /home/mype/dev/app-finanzas/.env
+-rw-rw-r-- 1 mype mype 49 Mar 30 23:51 /home/mype/dev/app-finanzas/frontend/.env
+-rw-rw-r-- 1 mype mype 286 Apr  3 21:34 /home/mype/dev/app-finanzas/backend/.env
+-rw-rw-r-- 1 mype mype 2781 Mar 27 20:55 /home/mype/dev/oishi-app-horarios/.env
+-rw-rw-r-- 1 mype mype 94 Apr  7 04:11 /home/mype/dev/oishi-app-horarios/frontend/.env.example
+-rw-rw-r-- 1 mype mype 60 Feb 14 04:07 /home/mype/dev/oishi-app-horarios/frontend/.env
+-rw-rw-r-- 1 mype mype 1443 May 30 19:26 /home/mype/dev/oishi-app-horarios/backend/.env.example
+-rw-rw-r-- 1 mype mype 2902 May 18 06:07 /home/mype/dev/oishi-app-horarios/backend/.env
+-rw-rw-r-- 1 mype mype 135 Mar  1 08:12 /home/mype/dev/bot-whatsapp-mype/.env.example
+-rw-rw-r-- 1 mype mype 377 Mar  1 09:01 /home/mype/dev/bot-whatsapp-mype/.env
+-rw-rw-r-- 1 mype mype 97 Jun 30  2025 /home/mype/dev/project-cloud-service/.env.example
+-rw-rw-r-- 1 mype mype 150 Jul  1  2025 /home/mype/dev/project-cloud-service/.env
+-rw-rw-r-- 1 mype mype 135 Mar 14 23:07 /home/mype/dev/wallet-web/.env
+-rw-rw-r-- 1 mype mype 78 Mar 14 23:31 /home/mype/dev/wallet-web/backend/.env.example
+-rw-rw-r-- 1 mype mype 145 Mar 14 23:33 /home/mype/dev/wallet-web/backend/.env
+-rw-rw-r-- 1 mype mype 39 Apr  1 09:13 /home/mype/dev/app-flow/.env
+-rw-rw-r-- 1 mype mype 58 Apr  1 15:26 /home/mype/dev/app-flow/frontend/.env.example
+-rw-rw-r-- 1 mype mype 18 Apr  1 09:15 /home/mype/dev/app-flow/frontend/.env
+-rw-rw-r-- 1 mype mype 464 Apr  1 15:57 /home/mype/dev/app-flow/backend/.env.example
+-rw-rw-r-- 1 mype mype 835 May 12 13:52 /home/mype/dev/app-flow/backend/.env
+-rw-rw-r-- 1 mype mype 60 Jun 29  2025 /home/mype/dev/merch-service/.env.example
+-rw-rw-r-- 1 mype mype 153 Jun 29  2025 /home/mype/dev/merch-service/.env
+-rw-r--r-- 1 mype mype 0 Apr 24  2025 /home/mype/.cache/yarn/v6/npm-psl-1.9.0-d0df2a137f00794565fcaf3b2c00cd09f8d5a5a7-integrity/node_modules/psl/.env
+-rw-rw-r-- 1 mype mype 701 Dec 27  2025 /home/mype/prod/SISTEMA-GCE-V2/backend/.env
+-rw-rw-r-- 1 mype mype 1696 Jun 30  2025 /home/mype/prod/shopimax/api-shopimax/.env.production
+-rw-rw-r-- 1 mype mype 1844 Jun 23  2025 /home/mype/prod/shopimax/api-shopimax/.env.development
+-rw-rw-r-- 1 mype mype 13 Jun 22  2025 /home/mype/prod/shopimax/webhook-shopimax/.env.example
+-rw-rw-r-- 1 mype mype 117 Jul 10 20:22 /opt/monitoring/.env
+-rw-r--r-- 1 mype mype 452 Jul 11  2025 /var/www/what2bot/.env
+-rw-r--r-- 1 mype mype 0 Apr 24  2025 /var/www/blog-example.local/versions/5.119.2/node_modules/psl/.env
+-rw-r--r-- 1 mype mype 474 Jun 29  2025 /var/www/oldbot/.env
+-rw-r--r-- 1 mype mype 0 Apr 24  2025 /var/www/app-example.local/versions/5.118.0   /node_modules/psl/.env

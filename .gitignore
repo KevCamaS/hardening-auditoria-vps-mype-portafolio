@@ -1,0 +1,15 @@
+# Secretos
+*.env
+*.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.cursor/

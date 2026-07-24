@@ -1,0 +1,14 @@
+=== ACT9 APT ===
+Tue Jul 14 02:11:30 AM CEST 2026
+--- upgradable (muestra) ---
+Listing...
+libnetplan0/jammy-updates 0.107.1-3ubuntu0.22.04.4 amd64 [upgradable from: 0.106.1-7ubuntu0.22.04.4]
+linux-generic/jammy-updates,jammy-security 5.15.0.185.166 amd64 [upgradable from: 5.15.0.170.159]
+linux-headers-generic/jammy-updates,jammy-security 5.15.0.185.166 amd64 [upgradable from: 5.15.0.170.159]
+linux-image-generic/jammy-updates,jammy-security 5.15.0.185.166 amd64 [upgradable from: 5.15.0.170.159]
+netplan.io/jammy-updates 0.107.1-3ubuntu0.22.04.4 amd64 [upgradable from: 0.106.1-7ubuntu0.22.04.4]
+--- servicios ---
+active
+active
+active
+active
